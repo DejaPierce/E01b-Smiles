@@ -1,11 +1,13 @@
 # E01b-Smiles
+For this assignment we had to create a smiley face using the code that we were given. I went about this project by first changing the year and my name under the license file. Next I went under main1.py file and read all the coding that I was given. I had to reread the coding several times, because I couldn't understand the task at hand. So I decided to run the program and noticed that I could only see the upper right corner of the smiley face. I realized that I had to make it so that I could see the whole smiley face by changing numbers. I changed all of the zeroes in the coding, because that meant that I wouldn't be able to see the whole face. I did the same things in the other files. Even though I was able to show the whole smiley face I noticed that all of them do not look alike,but they are close enough to the smiley face that we were told to recreate. 
+I did not do the extra credit
 An exercise exploring variables and loops using Python Arcade.
 
 This repository contains several files that you will need to alter to complete the assignment. The instructions for the exercise are also on Canvas.
 
 Comments in Python are marked by a # sign (for single-line comments) or three matching quotation marks (''' or """) if a comment requires more than one line. They should also appear in a different color in VS Code. The Python Interpreter ignores comments, so you can safely include any information you want there.
 
-As with your assignments, please edit the LICENSE file (replace the [year] [fullname] with the current year and your name); you will also be expected to edit README.md (this file) to describe what you have accomplished.
+As with your assignments, please edit the LICENSE file (replace the [2019] [Deja Pierce] with the current year and your name); you will also be expected to edit README.md (this file) to describe what you have accomplished.
 
 ---
 

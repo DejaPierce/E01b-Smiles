@@ -5,17 +5,17 @@ import utils, open_color, arcade
 utils.check_version((3,7))
 
 # Open the window. Set the window title and dimensions (width and height)
-arcade.open_window(800, 600, "Smiley Face Example")
+arcade.open_window(600, 600, "Smiley Face Example")
 arcade.set_background_color(open_color.white)
 # Start the render process. This must be done before any drawing commands.
 arcade.start_render()
 
-face_x,face_y = (0,0)
-smile_x,smile_y = (face_x + 0,face_y - 0)
-eye1_x,eye1_y = (face_x - 0,face_y + 0) 
-eye2_x,eye2_y = (face_x + 0,face_y + 0)
-catch1_x,catch1_y = (face_x - 0,face_y + 0) 
-catch2_x,catch2_y = (face_x + 0,face_y + 0) 
+face_x,face_y = (300,300)
+smile_x,smile_y = (face_x + 5,face_y - 10)
+eye1_x,eye1_y = (face_x - 25,face_y + 45) 
+eye2_x,eye2_y = (face_x + 25,face_y + 45)
+catch1_x,catch1_y = (face_x - 20,face_y + 55) 
+catch2_x,catch2_y = (face_x + 30,face_y + 55) 
 
 
 # Draw the smiley face:
@@ -25,8 +25,8 @@ arcade.draw_circle_filled(face_x, face_y, 100, open_color.yellow_3)
 arcade.draw_circle_outline(face_x, face_y, 100, open_color.black,4)
 
 #(x,y,width,height,color)
-arcade.draw_ellipse_filled(eye1_x,eye1_y,15,25,open_color.black)
-arcade.draw_ellipse_filled(eye2_x,eye2_y,15,25,open_color.black)
+arcade.draw_ellipse_filled(eye1_x,eye1_y,25,45,open_color.black)
+arcade.draw_ellipse_filled(eye2_x,eye2_y,25,45,open_color.black)
 arcade.draw_circle_filled(catch1_x,catch1_y,3,open_color.gray_2)
 arcade.draw_circle_filled(catch2_x,catch2_y,3,open_color.gray_2)
 
